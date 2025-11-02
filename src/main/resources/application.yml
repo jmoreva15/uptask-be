@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: uptask-be
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    show-sql: true
+server:
+  port: 8080
